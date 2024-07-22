@@ -1,0 +1,132 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nguyen Van Phuc, HCMUT, LIC=03C6R-KW1QA-CXFU6-D96HY-K7DGZ-W1RW0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\PIFC\22_7_24\MDK-ARM\22_7_24.uvprojx
+Project File Date:  07/22/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target '22_7_24'
+assembling startup_stm32f103xb.s...
+compiling main.c...
+..\MDK-ARM\car_control.h(12): warning:  #1295-D: Deprecated declaration tien - give arg types
+  void tien();
+..\MDK-ARM\car_control.h(13): warning:  #1295-D: Deprecated declaration lui - give arg types
+  void lui();
+..\MDK-ARM\car_control.h(14): warning:  #1295-D: Deprecated declaration quay_trai - give arg types
+  void quay_trai();
+..\MDK-ARM\car_control.h(15): warning:  #1295-D: Deprecated declaration quay_phai - give arg types
+  void quay_phai();
+..\MDK-ARM\car_control.h(16): warning:  #1295-D: Deprecated declaration dung_lai - give arg types
+  void dung_lai();
+..\MDK-ARM\car_control.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MDK-ARM\uart_handler.h(11): warning:  #1295-D: Deprecated declaration handle - give arg types
+  void handle();
+..\MDK-ARM\uart_handler.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c: 8 warnings, 0 errors
+compiling car_control.c...
+car_control.h(12): warning:  #1295-D: Deprecated declaration tien - give arg types
+  void tien();
+car_control.h(13): warning:  #1295-D: Deprecated declaration lui - give arg types
+  void lui();
+car_control.h(14): warning:  #1295-D: Deprecated declaration quay_trai - give arg types
+  void quay_trai();
+car_control.h(15): warning:  #1295-D: Deprecated declaration quay_phai - give arg types
+  void quay_phai();
+car_control.h(16): warning:  #1295-D: Deprecated declaration dung_lai - give arg types
+  void dung_lai();
+car_control.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+car_control.c(42): warning:  #1-D: last line of file ends without a newline
+        }
+car_control.c: 7 warnings, 0 errors
+compiling uart_handler.c...
+uart_handler.h(11): warning:  #1295-D: Deprecated declaration handle - give arg types
+  void handle();
+uart_handler.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+car_control.h(12): warning:  #1295-D: Deprecated declaration tien - give arg types
+  void tien();
+car_control.h(13): warning:  #1295-D: Deprecated declaration lui - give arg types
+  void lui();
+car_control.h(14): warning:  #1295-D: Deprecated declaration quay_trai - give arg types
+  void quay_trai();
+car_control.h(15): warning:  #1295-D: Deprecated declaration quay_phai - give arg types
+  void quay_phai();
+car_control.h(16): warning:  #1295-D: Deprecated declaration dung_lai - give arg types
+  void dung_lai();
+car_control.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+uart_handler.c(71): warning:  #1-D: last line of file ends without a newline
+        }
+uart_handler.c: 9 warnings, 0 errors
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_uart.c...
+linking...
+Program Size: Code=6782 RO-data=310 RW-data=32 ZI-data=1776  
+FromELF: creating hex file...
+"22_7_24\22_7_24.axf" - 0 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_22_7_24
+  C:\Users\PC\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\PC\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:16
+</pre>
+</body>
+</html>

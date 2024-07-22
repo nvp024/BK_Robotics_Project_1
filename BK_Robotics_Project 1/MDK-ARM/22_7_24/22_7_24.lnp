@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"22_7_24\startup_stm32f103xb.o"
+"22_7_24\main.o"
+"22_7_24\stm32f1xx_it.o"
+"22_7_24\stm32f1xx_hal_msp.o"
+"22_7_24\car_control.o"
+"22_7_24\uart_handler.o"
+"22_7_24\stm32f1xx_hal_gpio_ex.o"
+"22_7_24\stm32f1xx_hal_tim.o"
+"22_7_24\stm32f1xx_hal_tim_ex.o"
+"22_7_24\stm32f1xx_hal.o"
+"22_7_24\stm32f1xx_hal_rcc.o"
+"22_7_24\stm32f1xx_hal_rcc_ex.o"
+"22_7_24\stm32f1xx_hal_gpio.o"
+"22_7_24\stm32f1xx_hal_dma.o"
+"22_7_24\stm32f1xx_hal_cortex.o"
+"22_7_24\stm32f1xx_hal_pwr.o"
+"22_7_24\stm32f1xx_hal_flash.o"
+"22_7_24\stm32f1xx_hal_flash_ex.o"
+"22_7_24\stm32f1xx_hal_exti.o"
+"22_7_24\stm32f1xx_hal_uart.o"
+"22_7_24\system_stm32f1xx.o"
+--strict --scatter "22_7_24\22_7_24.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "22_7_24.map" -o 22_7_24\22_7_24.axf
